@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    
+
+}
+header{
+    background-color: rgb(217, 145, 52);
+}
+.header ul li a{
+    text-decoration: none;
+    color: rgb(219, 221, 226);
+    font-size: 1rem;
+}
+header ul li{
+    list-style: none;
+}
+.header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+    margin-right: 140px;
+    padding: 10px 10px;
+}
+.header ul li:hover a{
+    border-bottom: 2px solid black;
+}
+.header nav{
+    background-color: rgb(84, 69, 49);
+}
+.header nav ul h2{
+    color: aliceblue;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+}
+.home .first{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.home img{
+    height:87vh;
+    width: 90vh;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+.home .first p{
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+
+.menu .first-menu{
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.first-line{
+    display: flex;
+    object-fit: cover;
+    gap: 200px;
+    margin-left: 49px;
+}
+.first-line img{
+    height: 280px;
+    width: 260px;
+    border-radius: 20px;
+}
+.first-line h4{
+    text-align: center;
+    color: brown;
+}
+.first-line p{
+    text-align: center;
+    color: rgb(22, 19, 19);
+}
+.second-line{
+    margin-top: 30px;
+    display: flex;
+    object-fit: cover;
+    gap: 200px;
+    margin-left: 49px;
+}
+.second-line img{
+    height: 280px;
+    width: 260px;
+    border-radius: 20px;
+}
+.second-line h4{
+    text-align: center;
+    color: brown;
+}
+.second-line p{
+    text-align: center;
+    color: rgb(22, 19, 19);
+}
+.contact{
+    display: flex;
+    margin-top: 60px;
+    gap: 180px;
+    margin-bottom: 30px;
+}
+.contact .images{
+    margin-top: 200px;
+    margin-left: 40px;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    color: rgb(217, 224, 124);
+}
+.form{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 24px;
+background: #e0e0e0;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+padding: 10px 10px;
+height: 550px;
+width: 600px;
+
+
+}
+.form p{
+    font-size: 2rem;
+}
+.form form{
+    padding: 10px 10px;
+    margin-top: 30px;
+}
+.form form input{
+    padding: 10px 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.form form label{
+    font-size: 1.5rem;
+}
+.form .firstrow{
+    display: flex;
+    gap: 30px;
+}
+.form .firstrow input{
+    margin-top: -10px;
+    width: 200px;
+    margin-left: -26px;
+    margin-bottom: 20px;
+}
+.form .secondrow{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.form .secondrow input{
+    padding: 10px 10px;
+    margin-top: -10px;
+    width: 100%;
+    margin-left: -26px;
+    margin-bottom: 20px;
+}
+.form .thirdrow{
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.form .thirdrow input{
+    margin-top: -10px;
+    padding: 10px 10px;
+    width: 145px;
+    height: 20px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+}
+.form .fourthrow{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.form .fourthrow input{
+    margin-top: -10px;
+    padding: 10px 10px;
+    width: 200px;
+    height: 20px;
+    margin-left: -8px;
+    margin-bottom: 20px;
+}
+.form .fifth{
+    display: grid;
+    gap: 20px;
+}
+.form .fifth textarea{
+    padding: 10px 10px;
+    width: 575px;
+    height: 30px;
+    margin-left: -8px;
+    margin-bottom: 30px;
+}
+.form button{
+    margin-top: 10px;
+   padding: 10px 10px; 
+   text-align: center;
+   background-color: orangered;
+   color: white;
+   margin-left: 20px;
+   border-style: none;
+   width: 95%;
+   font-size: 1rem;
+}
+.form :hover button{
+    background-color: rgb(83, 30, 30);
+}
+
+
+
+
